@@ -16,5 +16,6 @@
     <script src="/js/ui.js"></script>
   </head>
   <body>
+    <header>hi</header>
   </body>
 </html>
