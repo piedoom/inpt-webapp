@@ -1,0 +1,40 @@
+body{
+  background-color: #f2f2f2;
+}
+
+header{
+  background-color: #4d9ea3;
+}
+
+.item{
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 24px;
+  width: 200px;
+  text-align: center;
+}
+
+.list{
+  margin-bottom: 12px;
+}
+
+#leftColumn{
+  width: 264px;
+  float: left;
+}
+
+#rightColumn{
+  float: right;
+  background-color: white;
+  padding: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#mainContainer{
+  max-width: 1200px;
+  margin: 0 auto;
+}

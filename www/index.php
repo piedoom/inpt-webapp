@@ -14,8 +14,28 @@
     <script src="/js/velocity.ui.min.js"></script>
     <script src="/js/waypoints.min.js"></script>
     <script src="/js/ui.js"></script>
+    <script src="/js/generation.js"></script>
   </head>
   <body>
-    <header>hi</header>
+    <!-- header -->
+    <header>
+      <!--inpt logo -->
+      <img src="/img/logo.png"/>
+    </header>
+
+    <!-- centered div containing editable stuff -->
+    <div id="mainContainer">
+      <!-- left column containing selections -->
+      <div id="leftColumn">
+        <!-- list contains a full part of the tree -->
+      </div>
+
+      <!--div containing editable stuff -->
+      <div id="rightColumn">
+        asdasd
+      </div>
+
+    </div>
+
   </body>
 </html>
