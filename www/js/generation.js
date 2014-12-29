@@ -21,7 +21,7 @@ $(function(){
       //print out each folder to console
       console.log(objlist[a].folders[b]);
       $('#leftColumn').append(
-        '<div class="list"><div class="item" style="background: grey;">' + objlist[a].folders[b] + '</div></div>'
+        //'<div class="list"><div class="item" style="background: grey;">' + objlist[a].folders[b] + '</div></div>'
       );
     }
   }

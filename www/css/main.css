@@ -4,6 +4,7 @@ body{
 
 header{
   background-color: #4d9ea3;
+  padding-bottom: 128px;
 }
 
 .item{
@@ -14,10 +15,21 @@ header{
   padding: 24px;
   width: 200px;
   text-align: center;
+  border-bottom: #d5dde0 solid 3px;
 }
 
 .list{
   margin-bottom: 12px;
+}
+
+::selection{
+  background: #7ec5c9;
+  color: white;
+}
+
+::-moz-selection{
+  background: #7ec5c9;
+  color: white;
 }
 
 #leftColumn{
@@ -27,14 +39,54 @@ header{
 
 #rightColumn{
   float: right;
+}
+
+.editList{
   background-color: white;
   padding: 48px;
+  border-bottom: #d5dde0 solid 3px;
+  margin-bottom: 16px;
+}
+
+.active{
+  border-bottom: #7ec5c9 solid 3px;
+}
+
+.editListHeader{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.editable{
+  width: 100%;
+  border: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18px;
+  resize: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.editable:focus{
+  outline: 0;
+  outline: none;
 }
 
 #mainContainer{
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: -128px;
+}
+
+.ripple{
+  position: absolute;
+
+}
+
+textarea{
+  text-indent: 0;
 }

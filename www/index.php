@@ -15,6 +15,7 @@
     <script src="/js/waypoints.min.js"></script>
     <script src="/js/ui.js"></script>
     <script src="/js/generation.js"></script>
+
   </head>
   <body>
     <!-- header -->
@@ -32,8 +33,35 @@
 
       <!--div containing editable stuff -->
       <div id="rightColumn">
-        asdasd
+        <div class="editList">
+          <h1 class="editListHeader">home</h1>
+          <textarea class="editable">
+This is some text showing about how inpt's divs will expand to a certain size before showing a scrollbar, so it won't take up too much space.
+For instance, if you were doing a menu, and you needed a newline each time, you could do:
+This
+is
+an
+example
+of
+a
+menu
+here
+are
+some
+more
+items
+before
+it
+collapses
+          </textarea>
       </div>
+
+    <div class="editList">
+      <h1 class="editListHeader">content</h1>
+      <textarea class="editable">
+However, smaller items do not require a scrollbar, but can extend the div to a point
+      </textarea>
+    </div>
 
     </div>
 
